@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Logs and Spark output
+*.log
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Data and model outputs
+data/
+outputs/
+*.parquet/
+*.csv/
+*.jsonl
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
